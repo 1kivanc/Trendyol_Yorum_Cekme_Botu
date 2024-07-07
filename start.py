@@ -78,7 +78,7 @@ def trendyol_yorum_cek(url):
         driver.quit()
 
 
-urun_url = input("Trendyol ürününün yorumlar sayfasının linkini giriniz: ")
+urun_url = input("Trendyol ürününün linkini giriniz: ")
 if '?' in urun_url:
     urun_url = urun_url[:urun_url.index('?')]  
 urun_url += "/yorumlar"
